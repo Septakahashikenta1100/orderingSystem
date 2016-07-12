@@ -17,29 +17,6 @@ public class HomeController {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
-	//ログイン画面
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String Login(Locale locale, Model model) {
-		return "Login";
-	}
-
-
-	//ログイン処理
-	@RequestMapping(value = "/", method = RequestMethod.POST)
-	public String Login_re(FormModel fm, Model model) {
-		String id = fm.getId();
-		String password = fm.getPassword();
-		model.addAttribute("id", id);
-
-		if (id.equals("admin") || password.equals("admin") ) {
-			return "Frame";
-		}  else if ( id.equals("user") || password.equals("user")) {
-			return "Frame2";
-		} else {
-			return "Loginerrer";
-		}
-	}
-
 	//メニューバー(管理者用)
 	@RequestMapping(value = "/menu", method = RequestMethod.GET)
 	public String menu(Locale locale, Model model) {
