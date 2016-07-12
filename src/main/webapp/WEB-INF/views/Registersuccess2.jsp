@@ -7,16 +7,14 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
 <head>
-
-<title>タイトル</title>
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>登録完了画面</title>
 </head>
-
-  <frameset cols="28%,72%">
-    <frame src=menu name="menu">
-    <frame src=toppage2 name="toppage2">
-  </frameset>
-
-
-
+<body>
+<h1>ご登録ありがとうございました。</h1>
+<form:form modelAttribute="FromModel" action="/system/toppage2_re">
+<input type ="submit" value="進捗確認">
+</form:form>
+<h3></h3>
+</body>
 </html>

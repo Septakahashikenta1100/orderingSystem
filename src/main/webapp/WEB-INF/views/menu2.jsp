@@ -23,9 +23,6 @@
 		</div>
 		<div id="blook4">
 			<div id="button1">
-				<form action="/system/Register" target="toppage2" method="POST">
-					<input type=submit value="発注登録">
-				</form>
 			</div>
 			<br>
 		</div>
