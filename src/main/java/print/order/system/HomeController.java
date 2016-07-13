@@ -18,7 +18,7 @@ public class HomeController {
 	private JdbcTemplate jdbcTemplate;
 
 	//商品登録画面
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/Register", method = RequestMethod.POST)
 	public String Register(Locale locale, Model model) {
 		return "Register";
 	}
