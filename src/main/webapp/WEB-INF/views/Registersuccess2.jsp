@@ -10,7 +10,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>登録完了画面</title>
 </head>
-<body>
+<body bgcolor ="#ffcc66">
 <h1>ご登録ありがとうございました。</h1>
 <form:form modelAttribute="FromModel" action="/system/toppage2_re">
 <input type ="submit" value="進捗確認">

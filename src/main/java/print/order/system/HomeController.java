@@ -17,37 +17,8 @@ public class HomeController {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
-	//メニューバー(管理者用)
-	@RequestMapping(value = "/menu", method = RequestMethod.GET)
-	public String menu(Locale locale, Model model) {
-		return "menu";
-	}
-
-	//トップページ管理者
-	@RequestMapping(value = "/toppage2", method = RequestMethod.GET)
-	public String toppage2(Locale locale, Model model) {
-		return "toppage2";
-	}
-
-	//メニューバー(開発者用)
-	@RequestMapping(value = "/menu2", method = RequestMethod.GET)
-	public String menu2(Locale locale, Model model) {
-		return "menu2";
-	}
-	//トップページ開発者
-	@RequestMapping(value = "/toppage1", method = RequestMethod.GET)
-	public String toppage1(Locale locale, Model model) {
-		return "toppage1";
-	}
-
-	//登録完了したときの遷移場所
-	@RequestMapping(value = "/toppage2_re", method = RequestMethod.POST)
-	public String toppage2_re(Locale locale, Model model) {
-		return "toppage2";
-	}
-
 	//商品登録画面
-	@RequestMapping(value = "/Register", method = RequestMethod.POST)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String Register(Locale locale, Model model) {
 		return "Register";
 	}

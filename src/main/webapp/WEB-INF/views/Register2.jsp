@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css"
 	href="resources/css/Register2.css" />
 </head>
-<body>
+<body bgcolor ="#ffcc66">
 	<div id="blook1">
 		<div id="blook2">
 			<h1 align="center">

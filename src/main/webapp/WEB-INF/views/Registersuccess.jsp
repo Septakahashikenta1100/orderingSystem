@@ -10,7 +10,7 @@
 <title>発注情報確認画面</title>
 <link rel="stylesheet" type="text/css" href="resources/css/Registersuccess.css" />
 </head>
-<body>
+<body bgcolor ="#ffcc66">
 	<div id="blook1">
 		<div id="blook2">
 			<h1>
