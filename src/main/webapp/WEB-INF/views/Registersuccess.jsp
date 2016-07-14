@@ -56,13 +56,14 @@
 
 				<h3>※品番、発注数の変更はできませんがこれでよろしいでしょうか？</h3>
 
-				<p align="center" class="submit1">
+				<p  class="submit1">
 					<input type="submit" value="登録完了">
+				</p>
 			</form:form>
 			</c:forEach>
-			<form:form modelAttribute="FormModel" action="/system/Frame">
-					<input type="submit" value="キャンセル">
-			</form:form>
+			<p class="submit2">
+				<input type="button" onClick='history.back();' value="キャンセル">
+			</p>
 		</div>
 	</div>
 </body>
