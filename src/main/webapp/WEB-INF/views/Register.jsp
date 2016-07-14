@@ -140,7 +140,7 @@
 					</p>
 				</div>
 				<h3>※登録完了後の品番、発注数の変更はできません。</h3>
-				<p class="submit" align="center">
+				<p class="submit1" >
 					<input type="submit" value="次へ">
 				</p>
 			</form:form>

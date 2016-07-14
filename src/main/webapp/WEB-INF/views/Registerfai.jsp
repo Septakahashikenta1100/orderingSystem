@@ -141,7 +141,7 @@
 				</div>
 				<h3>※未入力の値があります！記入してください。</h3>
 
-				<p class="submit" align="center">
+				<p class="submit1">
 					<input type="submit" value="次へ">
 				</p>
 			</form:form>

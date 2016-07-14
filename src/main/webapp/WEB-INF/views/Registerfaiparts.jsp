@@ -77,7 +77,7 @@
 				</div>
 				<div id="width2">
 					<p class="mb1">
-						発注数:<input type="text" name="order2" value="${order2}" size="2" pattern="^[0-9A-Za-z]+$">
+						発注数:<input type="number" name="order2" value="${order2}" size="2" pattern="^[0-9A-Za-z]+$">
 					</p>
 				</div>
 				<p class="mb2">
@@ -141,7 +141,7 @@
 				</div>
 				<h3>※部品が足りなくて、作成できません。</h3>
 
-				<p class="submit" align="center">
+				<p class="submit1">
 					<input type="submit" value="次へ">
 				</p>
 			</form:form>

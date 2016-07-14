@@ -13,12 +13,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class HomeController {
-
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
 	//商品登録画面
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/Register", method = RequestMethod.GET)
 	public String Register(Locale locale, Model model) {
 		return "Register";
 	}
@@ -49,7 +48,6 @@ public class HomeController {
 			return "Registerfai";
 		}
 
-
 		List<Map<String, Object>>  list = jdbcTemplate.queryForList(
 				"select count(partstb.parts) as count "+
 						"from modeltb inner join "+
@@ -74,7 +72,6 @@ public class HomeController {
 						"inner join partstb on "+
 						"partstb.partsid = relationtb.partsid "+
 						"where modeltb.modelid = '"+ order1 +"'");
-
 		model.addAttribute("list", list);
 		model.addAttribute("list2", list2);
 		model.addAttribute("list3", list3);
@@ -92,12 +89,9 @@ public class HomeController {
 			model.addAttribute("n", list2re);
 
 			if (n <= 0) {
-
 				return "Registerfaiparts";
 			}
-
 		}
-
 		return "Register2";
 	}
 

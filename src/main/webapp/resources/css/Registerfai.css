@@ -23,12 +23,18 @@ body{
  margin-bottom: 0;
 }
 h1{
+ margin-top: 0px;
+ margin-bottom: 0px;
+ }
+h2{
  margin-top: 0;
  margin-left: 0;
  margin-right: 0;
  margin-bottom: 0;
- }
-h2{
+ position: relative;
+  top: 10px;
+}
+b{
  margin-top: 0;
  margin-left: 0;
  margin-right: 0;
@@ -47,9 +53,10 @@ p{
  margin-right: 0;
  margin-bottom: 0;
 }
-.submit{
+.submit1{
  position: relative;
-  top: 31px;
+  top: 42px;
+  left: 20px;
 }
 #width{
  position: relative;
@@ -57,5 +64,5 @@ p{
 }
 #width2{
  position: relative;
-  top: 10px;
+  top: 15px;
 }

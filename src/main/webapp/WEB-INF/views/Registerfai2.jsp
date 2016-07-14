@@ -61,7 +61,7 @@
 					<input type="hidden" value="${hidden8}" name="hidden8">
 					<input type="hidden" value="${hidden9}" name="hidden9">
 				</div>
-				<p class="submit" align="center">
+				<p class="submit1">
 					<input type="submit" value="発注完了">
 				</p>
 			</form:form>

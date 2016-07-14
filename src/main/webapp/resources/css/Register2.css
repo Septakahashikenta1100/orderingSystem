@@ -47,9 +47,10 @@ p{
  margin-right: 0;
  margin-bottom: 0;
 }
-.submit{
+.submit1{
  position: relative;
-  top: 61px;
+  top: 42px;
+  left: 20px;
 }
 #width{
  position: relative;

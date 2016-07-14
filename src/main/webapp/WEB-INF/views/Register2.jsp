@@ -63,7 +63,7 @@
 						<input type="hidden" value="${obj.count}" name="hidden9">
 					</c:forEach>
 				</div>
-				<p class="submit" align="center">
+				<p class="submit1" >
 					<input type="submit" value="発注完了">
 				</p>
 			</form:form>
