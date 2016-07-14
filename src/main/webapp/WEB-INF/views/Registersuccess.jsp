@@ -56,7 +56,7 @@
 
 				<h3>※品番、発注数の変更はできませんがこれでよろしいでしょうか？</h3>
 
-				<p align="center">
+				<p align="center" class="submit1">
 					<input type="submit" value="登録完了">
 			</form:form>
 			</c:forEach>

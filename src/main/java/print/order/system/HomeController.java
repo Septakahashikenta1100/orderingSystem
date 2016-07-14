@@ -18,7 +18,7 @@ public class HomeController {
 	private JdbcTemplate jdbcTemplate;
 
 	//商品登録画面
-	@RequestMapping(value = "/Register", method = RequestMethod.POST)
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String Register(Locale locale, Model model) {
 		return "Register";
 	}
@@ -144,7 +144,7 @@ public class HomeController {
 			return "Registerfai2";
 		}
 		List<Map<String, Object>>  list = jdbcTemplate.queryForList(
-				"select * from modeltb where modelid = "+ hidden4 +"");
+				"select * from modeltb where modelid = "+ hidden3 +"");
 
 		model.addAttribute("list", list);
 		return "Registersuccess";

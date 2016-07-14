@@ -18,12 +18,12 @@
 			</h1>
 			<form:form modelAttribute="FormModel" action="/system/Register2">
 				<p class="mb1">
-					氏名：<input type="text" name="name">
+					氏名：<input type="text" name="name"pattern="[^\x20-\x7E]*">
 				</p>
 				<div id="width">
 					<p class="mb1">
-						郵便番号：<input type="text" name="post1" size="1">-<input
-							type="text" name="post2" size="3">
+						郵便番号：<input type="text" name="post1" size="1" pattern="\d{3}">-<input
+							type="text" name="post2" size="3" pattern="\d{4}">
 					</p>
 				</div>
 				<div id="width2">
@@ -49,7 +49,7 @@
 				</div>
 				<div id="width5">
 					<p class="mb1">
-						電話番号：<input type="text" name="tel">
+						電話番号：<input type="text" name="tel" pattern="\d{2,4}-?\d{3,4}-?\d{3,4}">
 					</p>
 					<input type="hidden" value="${day1}" name="hidden1">
 					<input type="hidden" value="${day2}" name="hidden2">
