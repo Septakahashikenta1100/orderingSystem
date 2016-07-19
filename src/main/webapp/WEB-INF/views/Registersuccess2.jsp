@@ -12,8 +12,8 @@
 </head>
 <body>
 <h1>ご登録ありがとうございました。</h1>
-<form:form modelAttribute="FromModel" action="/system/toppage2_re">
-<input type ="submit" value="進捗確認">
+<form:form modelAttribute="FromModel" action="/system/top2">
+<input type ="submit" value="トップページに戻る">
 </form:form>
 <h3></h3>
 </body>

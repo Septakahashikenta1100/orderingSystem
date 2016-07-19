@@ -16,7 +16,7 @@
 			</h1>
 			<form:form modelAttribute="FromModel" action="/system/Register_re">
 				<p class="mb1">
-					登録日：<select name="day1">
+					登録日<select name="day1">
 					<option value="1">1</option>
 					<option value="2">2</option>
 					<option value="3">3</option>
@@ -77,15 +77,16 @@
 				</div>
 				<div id="width2">
 					<p class="mb1">
-						発注数:<input type="number" name="order2" min="5" step="5">
+						発注数<input type="number" name="order2" min="5" step="5">
 					</p>
 				</div>
 				<p class="mb2">
-					登録者名：<input type="text" name="name" pattern="[^\x20-\x7E]*">
+					登録者名<input type="text" name="name" placeholder="例：田中 幸子"
+					pattern="[^\x20-\x7E\uFF21-\uFF3A\uFF41-\uFF5A\uFF10-\uFF19]*">
 				</p>
 				<div id="width">
 					<p class="mb2">
-						納品完了予定日：
+						納品完了予定日
 						<select name="comp1">
 						<option value="2016">2016</option>
 						<option value="2017">2017</option>

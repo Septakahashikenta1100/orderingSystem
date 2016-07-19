@@ -269,7 +269,7 @@ public class HomeController {
 		model.addAttribute("hidden8", hidden8);
 		model.addAttribute("hidden9", hidden9);
 
-		if (name == "" || post1 == "" || post2 == "" || order1 == "" || address1 == "" || address2 == "" || tel == "") {
+		if (name == "" || post1 == "" || post2 == "" || order1.equals("0") || address1 == "" || address2 == "" || tel == "") {
 
 			return "Registerfai2";
 		}
@@ -358,6 +358,11 @@ public class HomeController {
 			coun++;
 		}
 		return "Registersuccess2";
+	}
+
+	@RequestMapping(value = "/top2", method = RequestMethod.POST)
+	public String top2(Locale locale, Model model) {
+		return "toppage2";
 	}
 
 	// 相崎さん

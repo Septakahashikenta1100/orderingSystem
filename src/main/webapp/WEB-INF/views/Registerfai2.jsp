@@ -17,17 +17,18 @@
 			</h1>
 			<form:form modelAttribute="FormModel" action="/system/Register2">
 				<p class="mb1">
-					氏名：<input type="text" value="${name}" name="name"pattern="[^\x20-\x7E]*">
+					氏名<input type="text" value="${name}" name="name" pattern="[^\x20-\x7E\uFF21-\uFF3A\uFF41-\uFF5A\uFF10-\uFF19]*">
 				</p>
 				<div id="width">
 					<p class="mb1">
-						郵便番号：<input type="text" value="${post1}" name="post1" size="1"pattern="\d{3}">-<input type="text"
-							value="${post2}" name="post2" size="3" pattern="\d{4}">
+						郵便番号<input type="text" value="${post1}" name="post1" size="1"pattern="\d{3}" placeholder="例：000">-
+							<input type="text" value="${post2}" name="post2" size="3" pattern="\d{4}" placeholder="例：0000">
 					</p>
 				</div>
 				<div id="width2">
 					<p class="mb1">
-						住所1(都道府県)：<select name="order1">
+						住所1<select name="order1">
+							<option value="0">都道府県を選択して下さい</option>
 							<option value="茨城県">茨城県</option>
 							<option value="埼玉県">埼玉県</option>
 							<option value="東京都">東京都</option>
@@ -38,17 +39,18 @@
 				</div>
 				<div id="width3">
 					<p class="mb1">
-						住所2(市区町村、番地)：<input type="text" value="${address1}" name="address1">
+						住所2<input type="text" value="${address1}" name="address1" placeholder="市区町村、番地">
 					</p>
 				</div>
 				<div id="width4">
 					<p class="mb1">
-						住所3(マンション名、部屋番号)：<input type="text" value="${address2}" name="address2">
+						住所3<input type="text" value="${address2}" name="address2" placeholder="マンション名、部屋番号">
 					</p>
 				</div>
 				<div id="width5">
 					<p class="mb1">
-						電話番号：<input type="text" value="${tel}" name="tel" pattern="\d{2,4}-?\d{3,4}-?\d{3,4}">
+						電話番号<input type="text" value="${tel}" name="tel" placeholder="例：00011112222"
+						pattern="\d{2,4}-?\d{3,4}-?\d{3,4}">
 					</p>
 					<h3>※未入力の値があります！記入してください。</h3>
 					<input type="hidden" value="${hidden1}" name="hidden1">
