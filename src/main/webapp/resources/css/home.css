@@ -1,0 +1,183 @@
+
+ @CHARSET "UTF-8";
+
+ #site-box {
+
+          width : 774px;
+          border: 2px solid #FF0461;
+          background: #FFD5EC;
+          text-align: center;
+}
+
+ #site-box1 {
+ 	      display: table-cell;
+	      height: 700px;
+          width : 150px;
+          border: 2px solid #FF0461;
+          padding : 0px 0px 0px 0px;
+          background: #CCFFCC;
+}
+
+#site-box2 {
+ 	      display: table-cell;
+          width : 595px;
+          padding : 0px 0px 0px 50px;
+          background: #FFD5EC;
+}
+
+ #site-box3 {
+
+          width : 1000px;
+          text-align: center;
+          margin : 0px 0px 0px 50px;
+}
+
+ #site-box4 {
+          width : 180px;
+          text-align: center;
+          margin : 150px 20px 0px 0px;
+          float: left;
+
+}
+
+ #site-box5 {
+          width : 400px;
+          text-align: center;
+          margin : 0px 0px 0px 0px;
+          float: left;
+
+}
+
+  #title {
+          float: left;
+          height: 63px;
+          width : 150px ;
+          border: 1px solid #FF0461;
+          background: #99FFCC;
+          margin : -27px 0px 0px 0px;
+          text-align: center;
+                /* 上   右   下   左 */
+}
+
+  #title2 {
+          height: 63px;
+          width : 613px ;
+          border: 1px solid #FF0461;
+          background: #FFD5EC;
+          text-align: center;
+          margin : 0px 0px 30px -43px;
+               /*  上   右   下   左 */
+}
+
+#com1 {
+	      float: left;
+          height: 63px;
+          width : 220px ;
+          border: 1px solid #FF0461;
+          background-color: #FFFFEE;
+          margin : 0px 0px 0px 0px;
+          padding : 0px 10px 0px 0px;
+          text-align: right
+}
+
+#com2 {
+          float: left;
+          height: 63px;
+          width : 300px ;
+          border: 1px solid #FF0461;
+          background-color: #FFFFEE;
+          text-align: center;
+                /* 上   右   下   左 */
+}
+
+#com3 {
+
+	      height:30px;
+	      width : 94px ;
+          border: 1px solid #FF0461;
+          background-color: #FFFFEE;
+          padding : 15px 10px 10px 10px;
+          display: table-cell;
+               /*  上   右   下   左 */
+}
+
+#com4 {
+
+	      height:30px;
+	      width : 94px ;
+          border: 1px solid #FF0461;
+          background-color: #FFFFEE;
+          padding : 15px 10px 10px 10px;
+          text-align: center;
+          display: table-cell;
+}
+
+#com5 {
+	      float: left;
+          height: 150px;
+          width : 440px ;
+          margin : 0px 50px 0px 0px;
+          padding : 0px 10px 0px 0px;
+          text-align: left;
+}
+
+#com6 {
+	      float: left;
+          height: 60px;
+          width : 170px ;
+          margin : 0px 0px 20px 0px;
+          padding : 0px 0px 0px 20px;
+          text-align: left;
+          background:#ccffff
+}
+
+#com7 {
+	      float: left;
+          height: 60px;
+          width : 180px ;
+          margin : 0px 0px 10px 0px;
+          padding : 0px 0px 0px 10px;
+          text-align: left;
+          background:#ccffff
+}
+
+#com8 {
+background-image:-webkit-gradient(
+                  グラデーションの方向
+                , 開始位置
+                , 終了位置
+                , from(開始色)
+                , color-stop(位置, 途中色)
+                , to(終了色));
+                color: #ffffff;
+                width : 180px ;
+                height: 30px;
+                background-image: -webkit-gradient(
+                                  linear
+                                , left top
+                                , left bottom
+                                , from(#b2b2ed)
+                                , color-stop(0.49, #5050a5)
+                                , color-stop(0.50, #1c1c60)
+                                , to(#050519));
+}
+
+#com9 {
+          float: left;
+          height: 40px;
+          width : 350px ;
+          text-align: center;
+                /* 上   右   下   左 */
+}
+
+#com10 {
+	      float: left;
+          height: 63px;
+          width : 220px ;
+          color: #FF0000;
+          border: 1px solid #FF0461;
+          background-color: #FFFFEE;
+          margin : 0px 0px 0px 0px;
+          padding : 0px 10px 0px 0px;
+          text-align: right;
+}

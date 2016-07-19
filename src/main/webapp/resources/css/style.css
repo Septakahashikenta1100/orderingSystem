@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+p.list {
+	text-align: right;
+	margin-top: 50px;
+}
+
+div.button {
+	text-align: right;
+	margin-top: 30px;
+}
+
+p.middle {
+	margin-top: 20px;
+}
+
+h1.inquiry {
+	margin-top: 50px;
+	text-align: left;
+}
+
+h1.login_fail {
+	margin-top: 50px;
+	text-align: center;
+}
+
+h2.login_fail {
+	margin-top: 50px;
+	text-align: center;
+}
+
+p.login_fail {
+	text-align: center;
+	margin-top: 100px;
+}
+
+h1.toppage {
+	text-align: center;
+}
+
+h2.toppage {
+	text-align: bottom;
+	text-align: center;
+	font-size: 30px;
+}
+
+div.toppage {
+	text-align: center;
+}
+p.update {
+	text-align: center;
+	margin-top: 100px;
+}
+
+div.update {
+	text-align: right;
+	text-align: bottom;
+	margin-top: 100px;
+}
